@@ -1,0 +1,62 @@
+.body {
+    background-color: rgb(255, 244, 228);
+}
+
+.formulario {
+    width: 700px;
+	margin: 15px auto;
+    border: 1px solid blue;
+	height: 400px;
+	border-radius:8px;
+	padding: 10px 9px 10px 9px;
+
+    background-image: url('../assets/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+#logo {
+    width: 50%;
+}
+
+.logo-titulo {
+    padding-bottom: 80px;
+}
+
+.titulo-login {
+    padding-top: 90px;
+    font-size: 15px;
+    text-decoration: underline;
+    color: aliceblue;
+    text-align: center;
+}
+
+.ingreso {
+    text-align: left;
+    padding-bottom: 9px;
+    color: aliceblue;
+}
+
+.botones {
+    padding-top: 40px;
+}
+
+.link-registrado:hover, .link-registrado:active {
+    color: red;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.footer {
+    width: 100%;
+	margin: 15px auto;
+	height: 10%;
+	padding: 50px 9px 10px 9px;
+}
